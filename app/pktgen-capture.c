@@ -21,7 +21,7 @@
 #include "pktgen-log.h"
 #include "pktgen-display.h"
 
-#define CAPTURE_BUFF_SIZE (4 * (1024 * 1024))
+#define CAPTURE_BUFF_SIZE ((uint64_t)4 * (1024 * 1024 * 1024))
 
 /**
  *
